@@ -5,19 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/media.min.css">
+    <link rel="icon" type="image/png" href="./img/main-logo.png" />
+    <title>Maquette Responsive</title>
 </head>
 <body>
-    <header>
+    <i class="logo_b fas fa-bars"></i>
+    <div class="loader">
+        <div class="load loader1"></div>
+        <div class="load loader2"></div>
+        <div class="logo_loader lds-css ng-scope">
+            <div class="lds-spinner" style="width:100%;height:100%"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
+    <header class="header">
         <nav>
-            <div class="logo"></div>
+            <div class="miniLogo">
+                <img src="./img/petit-logo.png" alt="Petit Logo">
+                <h1>maquette</h1>
+            </div>
             <ul class="menu">
                 <li><a href="#home" class="onglets">Accueil</a></li>
                 <li><a href="#about" class="onglets">A propos</a></li>
+                <li><a href="#services" class="onglets">Services</a></li>
                 <li><a href="#contact" class="onglets">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <div class="burger">
+        <i class="cross fas fa-times"></i>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class="home" id="home">
+        <div class="background">
+            <div class="center">
+                <img src="./img/main-logo.png" alt="logo" class="logo">
+                <p>Lorem <span>ipsum</span>  dolor sit amet <span>consectetur</span>  !</p>
+                <h1>maquette web design developpeur web</h1>
+            </div>
+        </div>
+    </section>
+    <div class="gradient"></div>
+    <section id="about" class="about">
+        <div class="table">
+            <div class="case">
+                <div class="content">
+                    <h2 class="title">Ui Ux design <br> <p>Lorem ipsum dolor sit.</p></h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sit accusamus distinctio veritatis nostrum ipsam!</p>
+                </div>
+            </div>
+            <div class="case case2">
+                <div>Lorem ipsum dolor sit amet</div>
+                <div>
+                    <span>Info 1</span>
+                    <span>Info 2</span>
+                </div>
+            </div>
+            <div class="case case3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, molestiae!</p>
+                <a href="#services">En savoir plus</a>
+            </div>
+            <div class="case">
+                <div class="content"> 
+                    <h2 class="title">Ui Ux design <br> <p>Lorem ipsum dolor sit.</p></h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sit accusamus distinctio veritatis nostrum ipsam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="service">
+            <div>
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, optio!</p>
+            </div>
+            
+        </div>
+        <div class="typeService">
+            
+            <div class="caseService">
+                <div class="serv serv1">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Interface Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+                <div class="serv serv2">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Theming</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+                <div class="serv serv3">
+                    <i class="fas fa-search"></i>
+                    <h3>Referencement</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+                <div class="serv serv4">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobiles App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+                <div class="serv serv5">
+                    <i class="far fa-object-ungroup"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+                <div class="serv serv6">
+                    <i class="fas fa-user-edit"></i>
+                    <h3>Free Updates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto.</p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="crossCard fas fa-times"></i>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="address">
+            <p>Maquette Web Design</p>
+            <p>22 rue des rues</p>
+            <p>78451 VILLE</p>
+            <p>+3332245676</p>
+        </div>
+        <div class="nav_footer">
+            <ul class="f_menu">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rights">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam!</p>
+            <p>copyright © Copyright 2019 <br> <span class="simp">Simplon</span> </p>
+        </div>
+    </footer>
 </body>
-<script src="js/script.js"></script>
+<script src="js/script.js"></script> 
+<script src="https://kit.fontawesome.com/06909fb3de.js"></script>
 </html>

@@ -1,0 +1,940 @@
+@media (max-width: 1800px) 
+{
+    body{
+        .header
+        {
+            nav
+            {
+                ul
+                {
+                    li
+                    {
+                        margin-left: 11%;
+                        a
+                        {
+                            font-size: 1.5rem;
+                        }
+                        .ongletsActive
+                        {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+        .about
+        {
+            .table
+            {
+                .case
+                {
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 1.3rem;
+                            p
+                            {
+                                font-size: 1rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+                        font-size: 1.3rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.2rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            .service
+            {
+                div
+                {
+                    h2
+                    {
+                        font-size: 2.8rem;
+                    }
+                    p
+                    {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .typeService
+            {
+                .card
+                {
+                    width: 700px;
+                    height: 500px;
+                }
+                .caseService
+                {
+                    width: 900px;
+                    height: 400px;
+                    .serv
+                    {
+                        width: 230px;
+                        height: 190px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 2rem;
+                        }
+                        h3
+                        {
+                            font-size: 1.2rem;
+                        }
+                        p
+                        {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        footer
+        {
+            height: 50vh;
+            font-size: 1.2rem;
+            .nav_footer
+            {
+                ul
+                {
+                    a
+                    {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1350px) 
+{
+    body
+    {
+        .header
+        {
+            nav
+            {
+                ul
+                {
+                    li
+                    {
+                        margin-left: 9%;
+                        a
+                        {
+                            font-size: 1.3rem;
+                        }
+                        .ongletsActive
+                        {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .home
+        {
+            .background
+            {
+                .center
+                {
+                    p:nth-child(2)
+                    {
+                        font-size: 1rem;
+                        span
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h1:nth-child(3)
+                    {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        .about
+        {
+            .table
+            {
+                .case
+                {
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 1.2rem;
+                            p
+                            {
+                                font-size: 1rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+
+                        font-size: 1.1rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.1rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        padding: 0rem;
+
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            .service
+            {
+                div
+                {
+                    h2
+                    {
+                        font-size: 2rem;
+                    }
+                    p
+                    {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .typeService
+            {
+                .card
+                {
+                    width: 500px;
+                    height: 300px;
+                    font-size: 1.2rem;
+                    .fas, .far
+                    {
+                        font-size: 2rem;
+                    }
+                }
+                .caseService
+                {
+                    width: 800px;
+                    height: 340px;
+                    .serv
+                    {
+                        width: 200px;
+                        height: 160px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 1.5rem;
+                        }
+                        h3
+                        {
+                            font-size: 1rem;
+                        }
+                        p
+                        {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        footer
+        {
+            height: 50vh;
+            font-size: 1.2rem;
+            .nav_footer
+            {
+                ul
+                {
+                    a
+                    {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1050px) 
+{
+    body
+    {
+        .loader
+        {
+            .load
+            {
+                width: 200%;
+            }
+            .loader1
+            {
+                left: -150%;
+            }
+            .loader2
+            {
+                right: -149%;
+            }
+            .loader1Active
+            {
+                left: -300%;
+            }
+            .loader2Active
+            {
+                right: -300%;
+            }
+        }
+        header
+        {
+            nav
+            {
+                .menu
+                {
+                    display: none;
+                }
+                div
+                {
+                    h1
+                    {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .burger
+        {
+            display: block;
+        }
+        .logo_b
+        {
+            display: block;
+
+        }
+        .home
+        {
+            .background
+            {
+                .center
+                {
+                    .logo
+                    {
+                        width: 100%;
+                    }
+                    p:nth-child(2)
+                    {
+                        top: -5%;
+                        font-size: 1.5rem;
+                        span
+                        {
+                            font-size: 1.7rem;
+                        }
+                    }
+                    h1:nth-child(3)
+                    {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        .about
+        {
+            height: 150vh;
+            .table
+            {
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                height: 80%;
+                .case
+                {
+                    width: 80%;
+                    height: 30%;
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 1.7rem;
+                            p
+                            {
+                                font-size: 1.2rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+
+                        font-size: 1.2rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.2rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            flex-direction: column;
+            .service
+            {
+                width: 100%;
+                height: 30%;
+                div
+                {
+                    margin: 0;
+                    width: 50%;
+                    h2
+                    {
+                        margin: 0;
+                        font-size: 4rem;
+                    }
+                    p
+                    {
+                        margin: 0;
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .typeService
+            {
+                width: 100%;
+                height: 70%;
+                .caseService
+                {
+                    width: 800px;
+                    height: 340px;
+                    .serv
+                    {
+                        width: 200px;
+                        height: 160px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 1.5rem;
+                        }
+                        h3
+                        {
+                            font-size: 1rem;
+                        }
+                        p
+                        {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (width: 1024px ) and (height: 1366px) 
+{  
+    body
+    {
+        .home
+        {
+            .background
+            {
+                .center
+                {
+                    .logo
+                    {
+                        width: 150%;
+                    }
+                    p:nth-child(2)
+                    {
+                        top: -5%;
+                        font-size: 1.5rem;
+                        span
+                        {
+                            font-size: 1.7rem;
+                        }
+                    }
+                    h1:nth-child(3)
+                    {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        .about
+        {
+            height: 150vh;
+            .table
+            {
+                width: 80%;
+                height: 80%;
+                .case
+                {
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 2rem;
+                            p
+                            {
+                                font-size: 1.4rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+
+                        font-size: 1.4rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.4rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            .typeService
+            {
+                width: 100%;
+                height: 70%;
+                .caseService
+                {
+                    width: 800px;
+                    height: 800px;
+                    .serv
+                    {
+                        width: 300px;
+                        height: 260px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 2rem;
+                        }
+                        h3
+                        {
+                            font-size: 1.5rem;
+                        }
+                        p
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 850px)
+{
+    body
+    {
+        .logo_b
+        {
+            font-size: 2rem;
+        }
+        .burger
+        {
+            .fas
+            {
+                font-size: 2.5rem;
+            }
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .home
+        {
+            .background
+            {
+                height: 88vh;
+                .center
+                {
+                    .logo
+                    {
+                        width: 70%;
+                    }
+                    p:nth-child(2)
+                    {
+                        top: -20%;
+                        font-size: 1rem;
+                        span
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h1:nth-child(3)
+                    {
+                        font-weight: 600;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+        .about
+        {
+            height: 250vh;
+            .table
+            {
+                .case
+                {
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 1rem;
+                            p
+                            {
+                                font-size: 0.9rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+
+                        font-size: 1.2rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.2rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            height: 300vh;
+            flex-direction: column;
+            .service
+            {
+                width: 100%;
+                height: 10%;
+                div
+                {
+                    width: 50%;
+                    h2
+                    {
+                        font-size: 3rem;
+                        text-align: center;
+                    }
+                    p
+                    {
+                        margin: 0;
+                        font-size: 1.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+            .typeService
+            {
+                width: 100%;
+                height: 90%;
+                .caseService
+                {
+                    width: 800px;
+                    height: 800px;
+                    .serv
+                    {
+                        width: 300px;
+                        height: 260px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 2rem;
+                        }
+                        h3
+                        {
+                            font-size: 1.5rem;
+                        }
+                        p
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        footer
+        {
+            height: 200vh;
+            flex-direction: column;
+            .address
+            {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+            }
+            .nav_footer
+            {
+                display: none;
+            }
+            .rights
+            {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+                justify-content: center;
+                p
+                {
+                    text-align: center;
+                    padding: 0;
+                }
+                .simp
+                {
+                    position: relative;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 450px )
+{
+    body
+    {
+        .home
+        {
+            .background
+            {
+                .center
+                {
+                    .logo
+                    {
+                        width: 150%;
+                    }
+                    p:nth-child(2)
+                    {
+                        top: -10%;
+                        font-size: 1rem;
+                        span
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h1:nth-child(3)
+                    {
+                        font-weight: 600;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+        .about
+        {
+            height: 200vh;
+            .table
+            {
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 80%;
+                .case
+                {
+                    width: 80%;
+                    height: 30%;
+                    .content
+                    {
+                        h2
+                        {
+                            font-size: 1.3rem;
+                            p
+                            {
+                                font-size: 1.1rem;
+                            }
+                        }
+                        p 
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                .case2
+                {
+                    div:nth-child(1)
+                    {
+
+                        font-size: 1.2rem;
+                    }
+                    div:nth-child(2)
+                    {
+                        font-size: 1.2rem;
+                    }
+                }
+                .case3
+                {
+                    p
+                    {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        .services
+        {
+            height: 300vh;
+            flex-direction: column;
+            .service
+            {
+                width: 100%;
+                height: 10%;
+                div
+                {
+                    width: 50%;
+                    h2
+                    {
+                        font-size: 2.8rem;
+                        text-align: center;
+                    }
+                    p
+                    {
+                        margin: 0;
+                        font-size: 1.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+            .typeService
+            {
+                width: 100%;
+                height: 90%;
+                .caseService
+                {
+                    width: 800px;
+                    height: 1500px;
+                    .serv
+                    {
+                        width: 300px;
+                        height: 260px;
+                        margin: 5px;
+                        .fas, .far
+                        {
+                            font-size: 2rem;
+                        }
+                        h3
+                        {
+                            font-size: 1.5rem;
+                        }
+                        p
+                        {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        footer
+        {
+            height: 90vh;
+            flex-direction: column;
+            .address
+            {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+            }
+            .nav_footer
+            {
+                display: none;
+            }
+            .rights
+            {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+                justify-content: center;
+                p
+                {
+                    text-align: center;
+                    padding: 0;
+                }
+                .simp
+                {
+                    position: relative;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
