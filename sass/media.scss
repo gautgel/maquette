@@ -341,6 +341,7 @@
         .logo_b
         {
             display: block;
+            z-index: 345678776549;
 
         }
         .home
@@ -801,7 +802,7 @@
         }
         .about
         {
-            height: 200vh;
+            height: 250vh;
             .table
             {
                 flex-wrap: nowrap;
@@ -853,7 +854,7 @@
         }
         .services
         {
-            height: 300vh;
+            height: 350vh;
             flex-direction: column;
             .service
             {
@@ -906,7 +907,7 @@
         }
         footer
         {
-            height: 90vh;
+            height: 100vh;
             flex-direction: column;
             .address
             {

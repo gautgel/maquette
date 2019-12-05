@@ -78,6 +78,3 @@ logoBurger.addEventListener("click", ()=>{
         menuBurger.classList.remove("burgerActive");
     })
 })
-
-
-
